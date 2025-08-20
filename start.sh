@@ -1,13 +1,22 @@
-#!/bin/bash
-
-GREEN='\033[0;32m'
-RESET='\033[0m'
-
-echo -e "${GREEN}🚀 Iniciando Empire Bot v1.0...${RESET}"
-sleep 1
-
-while :
-do
-  npm start
-  sleep 1
-done
+{
+  "name": "empire-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Multi Device Empire",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "qr": "node index.js qr"
+  },
+  "author": "Judai",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:JoseXrl15k/XrlBaileyszzz",
+    "lowdb": "^3.0.0",
+    "node-fetch": "^3.2.10",
+    "uuid": "^10.0.0",
+    "chalk": "^5.3.0",
+    "boxen": "^8.1.0",
+    "cfonts": "^3.1.0"
+  }
+}
