@@ -12,8 +12,11 @@ const CATEGORIES = ['Juegos', 'Descargas', 'Administración', 'Públicos'];
 
 // Función para cargar todos los comandos
 global.commands = new Map();
+global.owner = [['50360438371']]; // tu número
+global.mods = [];
+global.prems = [];
 
-function loadPlugins() {
+async function loadPlugins() {
   for (const category of CATEGORIES) {
     const folderPath = path.join(PLUGINS_FOLDER, category);
     try {
