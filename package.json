@@ -14,6 +14,10 @@
     "@whiskeysockets/baileys": "github:JoseXrl15k/XrlBaileyszzz",
     "lowdb": "^3.0.0",
     "node-fetch": "^3.2.10",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "axios": "^1.7.5",
+    "cheerio": "^1.0.0-rc.12",
+    "moment-timezone": "^0.5.43",
+    "chalk": "^5.3.0"
   }
 }
