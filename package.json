@@ -14,6 +14,7 @@
     "@whiskeysockets/baileys": "github:JoseXrl15k/XrlBaileyszzz",
     "lowdb": "^3.0.0",
     "node-fetch": "^3.2.10",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "chalk": "^5.3.0"
   }
 }
