@@ -1,9 +1,4 @@
-¡Perfecto! 😎 Aquí tienes una versión épica y estilizada para GitHub, con emojis, formato atractivo y resaltando el estilo “Empire royal-tech” de tu bot:
-
-
----
-
-👑🤖 Empire Bot – Royal-Tech Administration
+👑🤖 Empire Bot 
 
 Empire es un bot multifuncional diseñado para gestionar, entretener y potenciar comunidades digitales con un toque de realeza y tecnología. Ideal para administrar sociedades, equipos y clanes, y mantener a tu comunidad activa y organizada.
 
