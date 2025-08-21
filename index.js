@@ -1,10 +1,9 @@
-// index.js
 import fs from 'fs';
 import chalk from 'chalk';
 import boxen from 'boxen';
 import { say } from 'cfonts';
 
-// Mostrar banner
+// ----- BANNER -----
 function showBanner() {
   const title = `
      👑👑👑👑👑👑👑
@@ -44,27 +43,18 @@ function showBanner() {
   console.log('\n' + aiMsg + '\n');
 }
 
-// Cargar el bot
+// ----- CARGAR BOT -----
 function loadBot() {
-  const candidates = ['main.js', 'bot.js', 'index2.js'];
-  for (let file of candidates) {
-    if (fs.existsSync(file)) {
-      try {
-        import(`./${file}`).then(() => {
-          console.log(chalk.green(`✅ Bot cargado desde ${file}`));
-        }).catch(err => {
-          console.error(chalk.red('❌ Error al cargar el bot:'), err);
-        });
-      } catch (err) {
-        console.error(chalk.red('❌ Error al importar el archivo:'), err);
-      }
-      return;
-    }
+  const mainFile = './main.js'; // Cambia aquí si tu archivo principal se llama diferente
+  if (!fs.existsSync(mainFile)) {
+    console.error(chalk.red(`❌ No se encontró el archivo principal: ${mainFile}`));
+    process.exit(1);
   }
-  console.error(chalk.red('❌ No se encontró ningún archivo principal (main.js, bot.js, index2.js)'));
-  process.exit(1);
+  import(mainFile)
+    .then(() => console.log(chalk.green(`✅ Bot cargado desde ${mainFile}`)))
+    .catch(err => console.error(chalk.red('❌ Error al cargar el bot:'), err));
 }
 
-// Ejecutar
+// ----- EJECUTAR -----
 showBanner();
 loadBot();
