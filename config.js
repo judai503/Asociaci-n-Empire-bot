@@ -9,27 +9,27 @@ import moment from 'moment-timezone'
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
-// ᑕOᒪᗩᗷOᖇᗩᗪOᖇᗴՏ Y ᑕᖇᗴáᗪOᖇ 🌸
+// ᑕOᒪᗩᗷOᖇᗩᗪOᖇᗴՏ Y ᑕᖇᗴáᗪOᖇ 
 global.owner = [
-['573001533523', '🐔 Creador Batman', true],
-['15614809253', 'David RyZe', true],
-['573133374132', 'Yᴏ Sᴏʏ Yᴏ', true],
-['18493907272', 'Dani Pana Del Brayan', true],
+['50360438371', 'el tio judai', true],
+['0000', 'xd 3', true],
+['000', 'xd 2', true],
+['000', 'xd', true],
 ];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ ✨️
-global.mods = ['573001533523', '573133374132'];
-global.suittag = ['573001533523', '573133374132'];
-global.prems = ['573001533523'];
+global.mods = ['50360438371', '00000'];
+global.suittag = ['00000', '0000'];
+global.prems = ['000'];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ ᒪᗩ ᗷOT 🍁
 global.libreria = 'Baileys';
-global.nameqr = 'RoxyBot';
-global.namebot = 'RoxyBot';
+global.nameqr = 'Empire-bot';
+global.namebot = 'Empire-bot';
 global.sessions = 'Sessions';
 global.jadi = 'JadiBots';
 global.roxyJadibts = true;
@@ -37,12 +37,12 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = '𝗥𝗼𝘅𝘆-𝗠𝗗 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
-global.botname = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉';
-global.wm = '🌸◌*̥₊ Tʜᴇ Rᴏxʏ-Bᴏᴛ ◌❐🎋༉';
-global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ 𝘉𝘳𝘢𝘺𝘢𝘯ㅤ🎋⋅ ..⃗.';
-global.textbot = 'Rᴏxʏ-Mᴅ Bʏ BʀᴀʏᴀɴXᴅ';
-global.etiqueta = 'Rᴏxʏ-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
+global.packname = 'Empire-bot (asociación)';
+global.botname = 'Empire-bot';
+global.wm = 'Empire-bot';
+global.dev = 'el tio judaiㅤ';
+global.textbot = 'Asociacion empire';
+global.etiqueta = 'Empire Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -81,11 +81,11 @@ global.photoSity = [catalogo]
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᘜᖇᑌᑭOՏ ᗪᗴ ᒪᗩ ᗷOT 🗂️
-global.gp1 = 'https://chat.whatsapp.com/F8KwM3rVqkS9HhR5msoRqQ'
-global.channel2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
-global.md = 'https://github.com/El-brayan502/RoxyBot-MD'
-global.correo = 'brayanfree881@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m';
+global.gp1 = 'whatsapp grupo'
+global.channel2 = 'canal'
+global.md = 'https://github.com/judai503/Asociaci-n-Empire-bot'
+global.correo = 'hay quen gregarlo'
+global.cn ='no hay';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
