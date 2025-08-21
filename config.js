@@ -12,17 +12,17 @@ import moment from 'moment-timezone'
 // ᑕOᒪᗩᗷOᖇᗩᗪOᖇᗴՏ Y ᑕᖇᗴáᗪOᖇ 🌸
 global.owner = [
 ['50360438371', 'el tio judai', true],
-['15614809253', 'David RyZe', true],
-['573133374132', 'Yᴏ Sᴏʏ Yᴏ', true],
-['18493907272', 'Dani Pana Del Brayan', true],
+['000000', 'x', true],
+['000000', 'b', true],
+['00000', 'z', true],
 ];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ ✨️
-global.mods = ['50360438371', '573133374132'];
-global.suittag = ['573001533523', '573133374132'];
-global.prems = ['573001533523'];
+global.mods = ['50360438371', '00000'];
+global.suittag = ['0000', '0000'];
+global.prems = ['0000'];
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
@@ -37,7 +37,7 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = 'empiee (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
+global.packname = 'empire (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
 global.botname = '🌸◌*̥₊ empire-Mᴅ ◌❐🎋༉';
 global.wm = '🌸◌*̥₊ Tʜᴇ empire-Bᴏᴛ ◌❐🎋༉';
 global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ el tio judai🎋⋅ ..⃗.';
@@ -81,11 +81,11 @@ global.photoSity = [catalogo]
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᘜᖇᑌᑭOՏ ᗪᗴ ᒪᗩ ᗷOT 🗂️
-global.gp1 = 'https://chat.whatsapp.com/F8KwM3rVqkS9HhR5msoRqQ'
-global.channel2 = 'https://whatsapp.com/channel/0029VajUPbECxoB0cYovo60W'
-global.md = 'https://github.com/El-brayan502/RoxyBot-MD'
-global.correo = 'brayanfree881@gmail.com'
-global.cn ='https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m';
+global.gp1 = 'grupo'
+global.channel2 = 'canal' 
+global.md = 'https://github.com/judai503/Asociaci-n-Empire-bot'
+global.correo = 'luego'
+global.cn ='canal';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
