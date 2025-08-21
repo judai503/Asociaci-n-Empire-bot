@@ -1,3 +1,6 @@
+// index.js
+import fs from 'fs';
+import path from 'path';
 import chalk from 'chalk';
 import boxen from 'boxen';
 import { say } from 'cfonts';
@@ -20,7 +23,6 @@ async function showBanner() {
     chalk.hex('#ffcc00')('✨ Disfruta de la experiencia premium de Empire.')
   ];
 
-  // Banner principal
   console.clear();
   console.log(
     boxen(
@@ -37,7 +39,6 @@ async function showBanner() {
     )
   );
 
-  // Texto animado con cfonts
   say('Empire Bot ⚜️', {
     font: 'block',
     align: 'center',
@@ -53,9 +54,31 @@ async function showBanner() {
     background: 'transparent'
   });
   console.log('\n' + aiMsg + '\n');
-
   tips.forEach(tip => console.log(tip));
 }
 
-// Llamada principal
-showBanner();
+// Función principal para arrancar el bot
+async function startBot() {
+  await showBanner();
+
+  // Archivos candidatos para el bot
+  const candidates = ['main.js', 'bot.js', 'index2.js'];
+  const mainFile = candidates.find(file => fs.existsSync(file));
+
+  if (!mainFile) {
+    console.error(chalk.red('❌ No se encontró ningún archivo principal (main.js, bot.js o index2.js)'));
+    process.exit(1);
+  }
+
+  // Cargar dinámicamente el bot
+  import(`./${mainFile}`)
+    .then(() => {
+      console.log(chalk.green(`✅ Bot cargado con éxito desde ${mainFile}`));
+    })
+    .catch(err => {
+      console.error(chalk.red('❌ Error al iniciar el bot:'), err);
+      process.exit(1);
+    });
+}
+
+startBot();
