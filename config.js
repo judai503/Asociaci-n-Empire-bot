@@ -83,7 +83,7 @@ global.photoSity = [catalogo]
 // ᘜᖇᑌᑭOՏ ᗪᗴ ᒪᗩ ᗷOT 🗂️
 global.gp1 = 'whatsapp grupo'
 global.channel2 = 'canal'
-global.md = 'https://github.com/judai503/Asociaci-n-Empire-bot'
+global.md = 'https://github.com/El-brayan502/RoxyBot-MD'
 global.correo = 'hay quen gregarlo'
 global.cn ='no hay';
 
