@@ -37,17 +37,33 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = 'empire (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
-global.botname = '🌸◌*̥₊ empire-Mᴅ ◌❐🎋༉';
-global.wm = '🌸◌*̥₊ Tʜᴇ empire-Bᴏᴛ ◌❐🎋༉';
-global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ el tio judai🎋⋅ ..⃗.';
-global.textbot = 'empire-Mᴅ Bʏ judai';
-global.etiqueta = 'empire-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
 
+global.packname = '🤖👑 Empire (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲) 👑🤖';
+global.botname = '🤖◈ Empire-Mᴅ ◈🤖';
+global.wm = '👑◈ Tʜᴇ Empire-Bᴏᴛ ◈👑';
+global.dev = '🤖👑 El tío Judai 👑🤖';
+global.textbot = 'Empire-Mᴅ Bʏ El tío Judai';
+global.etiqueta = 'Empire-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰOᑎᗴᗪᗩՏ 💸
-global.moneda = 'dolares';
+global.monedas = {
+    empire: '👑 EmpireCoins',
+    dolares: '💵 Dólares',
+    magia: '✨ Magia',
+    pokemones: '🐾 Pokemones',
+    trofeos: '🏆 Trofeos',
+    experiencia: '⭐ Experiencia',
+    propiedades: '🏠 Propiedades',
+    gemas: '💎 Gemas',
+    energia: '⚡ Energía',
+    corona: '👑 Corona',
+    fuerza: '💪 Fuerza',
+    elementos: '🪄 Elementos',  // antes cristal
+    runas: '🪄 Runas',
+    chispa: '⚡ Chispa',
+    conocimiento: '📚 Conocimiento'  // antes código
+};
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
