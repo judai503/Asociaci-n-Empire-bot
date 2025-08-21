@@ -11,7 +11,7 @@ import moment from 'moment-timezone'
 
 // ᑕOᒪᗩᗷOᖇᗩᗪOᖇᗴՏ Y ᑕᖇᗴáᗪOᖇ 🌸
 global.owner = [
-['573001533523', '🐔 Creador Batman', true],
+['50360438371', 'el tio judai', true],
 ['15614809253', 'David RyZe', true],
 ['573133374132', 'Yᴏ Sᴏʏ Yᴏ', true],
 ['18493907272', 'Dani Pana Del Brayan', true],
@@ -20,7 +20,7 @@ global.owner = [
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᑎᑌᗰᗴᖇO ᗪᗴ OᗯᑎᗴᖇՏ ✨️
-global.mods = ['573001533523', '573133374132'];
+global.mods = ['50360438371', '573133374132'];
 global.suittag = ['573001533523', '573133374132'];
 global.prems = ['573001533523'];
 
@@ -28,8 +28,8 @@ global.prems = ['573001533523'];
 
 // IᑎᖴOᖇᗰᗩᑕIOᑎ ՏOᗷᖇᗴ ᒪᗩ ᗷOT 🍁
 global.libreria = 'Baileys';
-global.nameqr = 'RoxyBot';
-global.namebot = 'RoxyBot';
+global.nameqr = 'empire';
+global.namebot = 'empire';
 global.sessions = 'Sessions';
 global.jadi = 'JadiBots';
 global.roxyJadibts = true;
@@ -37,12 +37,12 @@ global.roxyJadibts = true;
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
 // ᗰᗩᖇᑕᗩ ᗪᗴ ᗩᘜᑌᗩ 🗞️
-global.packname = '𝗥𝗼𝘅𝘆-𝗠𝗗 (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
-global.botname = '🌸◌*̥₊ Rᴏxʏ-Mᴅ ◌❐🎋༉';
-global.wm = '🌸◌*̥₊ Tʜᴇ Rᴏxʏ-Bᴏᴛ ◌❐🎋༉';
-global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ 𝘉𝘳𝘢𝘺𝘢𝘯ㅤ🎋⋅ ..⃗.';
-global.textbot = 'Rᴏxʏ-Mᴅ Bʏ BʀᴀʏᴀɴXᴅ';
-global.etiqueta = 'Rᴏxʏ-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
+global.packname = 'empiee (𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲)';
+global.botname = '🌸◌*̥₊ empire-Mᴅ ◌❐🎋༉';
+global.wm = '🌸◌*̥₊ Tʜᴇ empire-Bᴏᴛ ◌❐🎋༉';
+global.dev = '❁ཻུ۪۪ ⎧ ୧ㅤ el tio judai🎋⋅ ..⃗.';
+global.textbot = 'empire-Mᴅ Bʏ judai';
+global.etiqueta = 'empire-Mᴅ Wʜᴀᴛsᴀᴀᴘ Bᴏᴛ';
 
 //✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
 
