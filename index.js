@@ -59,13 +59,13 @@ async function showBanner() {
 
     `.split('\n').map(line => chalk.hex('#ff00cc').bold(line)).join('\n')
 
-    const subtitle = chalk.hex('#00eaff').bold('✦ ROXYBOT-MD ✦').padStart(40)
+    const subtitle = chalk.hex('#00eaff').bold('✦ EMPIRE-MD ✦').padStart(40)
     const poweredMsg = chalk.hex('#00eaff').italic('powered by Brayan')
-    const aiMsg = chalk.hex('#ffb300').bold('🤖 RoxyAi - Tu compañera virtual')
+    const aiMsg = chalk.hex('#ffb300').bold('🤖 EmpireAi - Tu guerrero virtual')
     const tips = [
         chalk.hex('#ffb300')('💡 Tip: Usa /help para ver los comandos disponibles.'),
         chalk.hex('#00eaff')('� Síguenos en GitHub para actualizaciones.'),
-        chalk.hex('#ff00cc')('✨ Disfruta de la experiencia premium de RoxyAi.')
+        chalk.hex('#ff00cc')('✨ Disfruta de la experiencia premium de empire-bot.')
     ]
     const loadingFrames = [
         chalk.magentaBright('⠋ Cargando módulos...'),
@@ -91,13 +91,13 @@ async function showBanner() {
                 borderStyle: 'double',
                 borderColor: 'whiteBright',
                 backgroundColor: 'black',
-                title: 'Roxy AI',
+                title: 'Empire AI',
                 titleAlignment: 'center'
             }
         )
     )
 
-    say('RoxyAi', {
+    say('EmpireAi', {
         font: 'block',
         align: 'center',
         colors: ['blue', 'cyan'],
@@ -105,7 +105,7 @@ async function showBanner() {
         letterSpacing: 1,
         lineHeight: 1
     })
-    say('powered by Brayan', {
+    say('powered by judai', {
         font: 'console',
         align: 'center',
         colors: ['blue'],
@@ -124,7 +124,7 @@ async function showBanner() {
     console.log(
         chalk.bold.cyanBright(
             boxen(
-                chalk.bold('¡Bienvenido a RoxyAi!\n') +
+                chalk.bold('¡Bienvenido a empireAi!\n') +
                 chalk.hex('#00eaff')('La bot está arrancando, por favor espere...') +
                 '\n' +
                 tips.join('\n'),
