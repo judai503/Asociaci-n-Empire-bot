@@ -19,21 +19,30 @@ export async function before(m, { conn }) {
     if (!global.invalidCommandCount[m.sender]) global.invalidCommandCount[m.sender] = 0;
     if (!global.invalidCommandTime[m.sender]) global.invalidCommandTime[m.sender] = 0;
 
-    // Verificar tiempo desde el último comando inválido
     const now = Date.now();
-    if (now - global.invalidCommandTime[m.sender] > 10000) { // más de 10s
-      global.invalidCommandCount[m.sender] = 0; // reiniciar contador
+    if (now - global.invalidCommandTime[m.sender] > 10000) {
+      global.invalidCommandCount[m.sender] = 0;
     }
 
     if (!validCommand(command, global.plugins)) {
       global.invalidCommandCount[m.sender]++;
-      global.invalidCommandTime[m.sender] = now; // actualizar tiempo del último comando inválido
+      global.invalidCommandTime[m.sender] = now;
 
-      // Solo avisa cuando llegue a 7 fallos seguidos
-      if (global.invalidCommandCount[m.sender] >= 7) {
-        global.invalidCommandCount[m.sender] = 0; // reiniciar contador
+      let aviso = '';
+      const count = global.invalidCommandCount[m.sender];
+
+      if (count === 3) {
+        aviso = '⚠️ Has enviado 3 comandos inválidos seguidos. Revisa el menú.';
+      } else if (count === 5) {
+        aviso = '⚠️ Ya son 5 comandos inválidos. Mejor mira el menú completo.';
+      } else if (count >= 7) {
+        aviso = `❌ Comando *${command}* no existe.\nHas enviado 7 comandos inválidos seguidos, revisa el menú antes de seguir.`;
+        global.invalidCommandCount[m.sender] = 0; // reiniciar
+      }
+
+      if (aviso) {
         await conn.sendMessage(m.chat, {
-          text: `❌ El comando *${command}* no existe.\n\n✨ Has enviado 7 comandos inválidos seguidos, revisa el menú antes de seguir.`,
+          text: aviso,
           contextInfo: {
             mentionedJid: [m.sender],
             externalAdReply: {
@@ -44,18 +53,18 @@ export async function before(m, { conn }) {
               sourceUrl: 'https://www.tiktok.com/@sandrabot_md'
             }
           }
-        }, { quoted: global.fakeMetaMsg });
+        }, { quoted: m });
       }
 
-      return false; // No bloquear otros handlers
+      return false; // no bloquear otros handlers
     }
 
-    // Si es válido, reinicia el contador
+    // Comando válido → reinicia contador
     global.invalidCommandCount[m.sender] = 0;
 
   } catch (error) {
     console.error(`Error en _validCommand.js: ${error}`);
   }
 
-  return false; // siempre permitir otros handlers
+  return false;
 }
