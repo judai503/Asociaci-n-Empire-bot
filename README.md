@@ -77,10 +77,3 @@ Comunidades de entretenimiento, juegos y minieventos
 
 Con Empire Bot, tu comunidad crecerá organizada, activa y llena de diversión. Administra, recompensa y entretén a tus miembros con estilo de realeza y tecnología.
 
-
----
-
-Si quieres, puedo hacer una versión todavía más visual, con tablas de monedas, emojis por secciones y efectos tipo GitHub README, que haga que tu repositorio destaque aún más.
-
-¿Quieres que haga esa versión ultra visual?
-
